@@ -4,7 +4,7 @@
 
 @section('content')
 <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">
-    Lists of posts
+    Post with id : {{ $post->id }}
 </h1>
 <div class="post mb-8">
     <h2 class="text-3xl font-semibold text-gray-700 dark:text-white text-center">{{ $post->title }}</h2>
