@@ -1,5 +1,8 @@
-@include('header')
+@extends('layouts.app')
 
+@section('title', 'Posts')
+
+@section('content')
 <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">
     Lists of posts
 </h1>
@@ -13,4 +16,4 @@
     </div>
 @endforeach  
         
-@include('footer')
+@endsection
