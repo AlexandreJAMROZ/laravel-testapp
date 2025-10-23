@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -27,3 +28,6 @@ Route::get('/posts', [PostController::class, 'index']);
 Route::get('/posts/create', [PostController::class, 'view_create']);
 Route::post('/posts/create', [PostController::class, 'post_create']);
 Route::get('/posts/{id}', [PostController::class, 'show'])->whereNumber('id');
+
+// ================= CONTACT =================
+Route::get('/contact', [ContactController::class, 'index']);
