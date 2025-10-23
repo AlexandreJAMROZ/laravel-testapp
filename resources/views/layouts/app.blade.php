@@ -15,7 +15,7 @@
             <div class="nav_container">
                 <ul class="flex w-full divide-x divide-gray-300">
                     <li class="flex w-full hover:bg-gray-100 cursor-pointer">
-                        <a class="flex-1 text-center py-5" href="/">Accueil</a>
+                        <a class="flex-1 text-center py-5" href="/">Home</a>
                     </li>
                     <li class="flex w-full hover:bg-gray-100 cursor-pointer">
                         <a class="flex-1 text-center py-5" href="/posts">Posts</a>
@@ -36,9 +36,9 @@
     </main>
 
     {{-- FOOTER --}}
-    <footer class="footer bg-white text-center p-4">
-        <div class="container">
-            <p class="text-lg font-normal text-gray-500 dark:text-gray-400 text-center p-4">
+    <footer class="footer bg-white p-4">
+        <div class="footer_container">
+            <p class="text-lg font-normal text-gray-500 dark:text-gray-400 p-4 text-center">
                 &copy; 2025 Alexandre JAMROZ. Tous droits réservés.
             </p>
         </div>
