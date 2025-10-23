@@ -3,7 +3,7 @@
 @section('title', 'Contact')
 
 @section('content')
-<h1 class="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white text-center">
+<h1 class="main_title main_title-responsive main_title-style">
     Contact Us
 </h1>
 

@@ -4,13 +4,15 @@
 
 @section('content')
 <div class="flex flex-col items-center">
-    <h1 class="main_title mb-4 leading-none tracking-tight text-gray-900 text-center">
-        Welcome to the homepage !
+    <h1 class="main_title main_title-responsive main_title-style">
+        Welcome to our blog !
     </h1>
-    <p class="mb-4 text-lg md:text-xl lg:text-2xl font-normal text-gray-500 text-center">
+    <p class="home_content 
+    mb-4 text-lg md:text-xl lg:text-2xl font-normal text-gray-500 text-center">
         Some text in the homepage.
     </p>
-    <a href="/posts" class="mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+    <a href="/posts" class="home_button 
+    mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
         Go see the posts !
     </a>
 

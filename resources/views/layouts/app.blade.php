@@ -9,19 +9,25 @@
 </head>
 <body>
 
-    <div id="app" class="bg-gray-100 min-h-screen flex flex-col">
+    <div id="app" 
+    class="bg-gray-100 min-h-screen flex flex-col">
     {{-- HEADER --}}
-    <header class="header bg-white mb-8 shadow-md">
+    <header class="header 
+    bg-white mb-8 shadow-md">
         <nav class="nav">
             <div class="nav_container">
-                <ul class="nav_list flex w-full divide-x divide-gray-300">
-                    <li class="nav_item flex w-full hover:bg-gray-100 cursor-pointer">
+                <ul class="nav_list 
+                flex w-full divide-x divide-gray-300">
+                    <li class="nav_item 
+                    flex w-full hover:bg-gray-100 cursor-pointer">
                         <a class="flex-1 text-center p-3" href="/">Home</a>
                     </li>
-                    <li class="nav_item flex w-full hover:bg-gray-100 cursor-pointer">
+                    <li class="nav_item 
+                    flex w-full hover:bg-gray-100 cursor-pointer">
                         <a class="flex-1 text-center p-3" href="/posts">Posts</a>
                     </li>
-                    <li class="nav_item flex w-full hover:bg-gray-100 cursor-pointer">
+                    <li class="nav_item 
+                    flex w-full hover:bg-gray-100 cursor-pointer">
                         <a class="flex-1 text-center p-3" href="/contact">Contact</a>
                     </li>
                 </ul>
@@ -37,9 +43,12 @@
     </main>
 
     {{-- FOOTER --}}
-    <footer class="footer bg-white">
+    <footer class="footer 
+    bg-white">
         <div class="footer_container">
-            <p class="footer_text text-gray-500 p-4 text-center">
+            <p class="footer_text 
+            text-xs md:text-base lg:text-xl
+            text-gray-500 p-4 text-center">
                 &copy; 2025 Alexandre JAMROZ. Tous droits réservés.
             </p>
         </div>

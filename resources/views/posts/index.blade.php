@@ -3,19 +3,23 @@
 @section('title', 'Posts - All posts')
 
 @section('content')
-<div class="top-banner mb-8 pl-6 pr-6 flex justify-center">
-    <h1 class="mr-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+<div class="top-banner mb-8 flex justify-center items-center">
+    <h1 class="main_title main_title-responsive main_title-style">
         Latest posts
     </h1>
 
-    <div class="create-button flex items-center bg-white p-2 pl-4 pr-4 border-solid border-1 border-gray-100 rounded-lg shadow-lg">
-        <a href="/posts/create">
-            +
-        </a>
-    </div>
+    <a href="/posts/create"
+        class="flex items-center justify-center ml-3
+        w-9 h-9 
+        bg-blue-500 hover:bg-blue-700 text-white text-3xl font-bold rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110">
+        +
+    </a>
+
 </div>
 
-<div class="posts">
+<div class="posts
+md:grid md:grid-cols-2
+xl:grid-cols-3">
     @foreach ($post_list as $post)
         <div class="post mb-8 rounded-xl flex bg-white w-11/12 mx-auto shadow-lg">
             <div class="w-3/4 p-4">

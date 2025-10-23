@@ -9,8 +9,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* ================= H1 ================= */
-.main_title {
-    font-weight: 800;
-    max-width: 95%;
+/* ======================================= */
+
+/* Main title of a page */
+.main_title.main_title-responsive {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+}
+
+.main_title.main_title-style {
+    @apply mb-4 text-center leading-none font-extrabold tracking-tight text-gray-900;
 }
