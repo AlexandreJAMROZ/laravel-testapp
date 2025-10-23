@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="flex flex-col items-center">
-    <h1 class="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-none tracking-tight text-gray-900 text-center">
+    <h1 class="main_title mb-4 leading-none tracking-tight text-gray-900 text-center">
         Welcome to the homepage !
     </h1>
     <p class="mb-4 text-lg md:text-xl lg:text-2xl font-normal text-gray-500 text-center">
@@ -15,7 +15,7 @@
     </a>
 
     <img 
-        class="mb-4 rounded-lg"
+        class="mb-4 rounded-lg shadow-lg"
         src="https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e.png"
         alt="Decoration blog picture"
         width="85%"

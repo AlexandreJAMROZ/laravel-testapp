@@ -8,3 +8,9 @@ body {
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ================= H1 ================= */
+.main_title {
+    font-weight: 800;
+    max-width: 95%;
+}

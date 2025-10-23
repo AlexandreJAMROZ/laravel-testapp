@@ -10,9 +10,9 @@
 <div class="contact-info mb-4">
     <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-white text-center">Contact Information</h2>
     <ul>
-        <li><p class="text-lg font-normal text-gray-500 dark:text-gray-400 text-center">Address: Nouméa 98800</p></li>
-        <li><p class="text-lg font-normal text-gray-500 dark:text-gray-400 text-center">Phone: +689 1234 5678</p></li>
-        <li><p class="text-lg font-normal text-gray-500 dark:text-gray-400 text-center">Email: 4E0k3@example.com</p></li>
+        <li><p class="text-md md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 text-center">Address: Nouméa 98800</p></li>
+        <li><p class="text-md md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 text-center">Phone: +689 1234 5678</p></li>
+        <li><p class="text-md md:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 text-center">Email: 4E0k3@example.com</p></li>
     </ul>
 </div>
 
